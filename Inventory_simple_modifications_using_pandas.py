@@ -51,10 +51,3 @@ combine_lambda = lambda row:     '{} - {}'.format(row.product_type,
 
 inventory['full_description'] = inventory.apply(combine_lambda, axis=1)
 print(inventory)
-
-
-# In[ ]:
-
-
-
-
